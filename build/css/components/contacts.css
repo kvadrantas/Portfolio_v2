@@ -1,0 +1,140 @@
+
+.multi-block .mainTitleBlock {
+  text-align: left;
+}
+
+.switch-bar {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.switchText1,
+.switch,
+.switchText2 {
+  float: left;
+  font-size: 10px;
+  margin-right: 7px;
+  line-height: 16px;
+  /* width: 100%; */
+}
+
+.slideBarContent {
+  display: block;
+}
+
+
+.slideBarContent {
+  display: block;
+}
+
+.multi-block {
+  /* margin-top: 70px; */
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #f4f5f8;
+}
+
+.multi-block p {
+  margin-bottom: 40px;
+}
+
+.multi-block h4 {
+  margin-bottom: 40px;
+}
+
+.multi-block > div {
+  flex: 33.33%;
+}
+.contacts {
+  /* margin-bottom: 50px; */
+}
+
+.contact-link {
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contacts i {
+  text-align: center;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  color: var(--third);
+  margin: 0 5px;
+  text-decoration: none;
+  line-height: 43px;
+  background-color: var(--primary);
+  transition: background-color .2s ease-in;
+  border-radius: 50%;
+}
+
+.contacts i:before {
+  background-color: #201f1f54;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+.contacts h1 {
+  text-transform: uppercase;
+}
+
+.contacts div {
+  margin-bottom: 10px;
+  display: block;
+  line-height: 43px;
+  color: var(--primary);
+}
+
+/* MEDIA */
+
+@media (max-width: 920px) {
+  .multi-block > div {
+    flex: none;
+    /* display: block; */
+    width: 50%;
+  }
+
+  .multi-block {
+    padding: 50px 20px;
+  }
+
+  .contacts,
+  .education {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .multi-block > div {
+    display: block;
+    width: 100%;
+    /* margin-bottom: 0; */
+  }
+
+  .contacts {
+    margin-bottom: 60px;
+  }
+
+  .education h3:last-of-type {
+    margin-top: 40px;
+  }
+
+  .education {
+    margin-bottom: 70px;
+  }
+
+  .education p {
+    margin-bottom: 0;
+  }
+
+  .multi-block h4 {
+    margin-bottom: 30px;
+  }
+}

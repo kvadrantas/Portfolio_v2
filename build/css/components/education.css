@@ -1,0 +1,15 @@
+.education {
+    /* margin-bottom: 10px; */
+}
+
+.education h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #232323;
+    text-transform: uppercase;
+}
+
+.education a {
+    color: var(--primary);
+}
