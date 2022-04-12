@@ -1,12 +1,14 @@
 // This script is for gallery rendering and gallery navigation functionality. It selectes required external data 
 // according to what navigation menu was clicked and displays all gallery photos. It also cover some responsive functionality
 class GalleryNavigation {
-    constructor(allData, brandData, designData, photoData, videoData, link){
+    constructor(allData, brandData, designData, photoData, videoData, reactData, vueData, link){
         this.allData = allData;
         this.brandData = brandData;
         this.designData = designData;
         this.photoData = photoData;
         this.videoData = videoData;
+        this.reactData = reactData;
+        this.vueData = vueData;
         this.data = allData;
         this.buttons = document.querySelectorAll('.gallery-navigation a');
         this.galleryPhotos = document.querySelectorAll('.gallery-photo');
@@ -46,6 +48,14 @@ class GalleryNavigation {
                         break;
                     case 'Video':
                         this.data = this.videoData;
+                        this.renderGallery();
+                        break;
+                    case 'React':
+                        this.data = this.reactData;
+                        this.renderGallery();
+                        break;
+                    case 'Vue':
+                        this.data = this.vueData;
                         this.renderGallery();
                         break;
                     default:

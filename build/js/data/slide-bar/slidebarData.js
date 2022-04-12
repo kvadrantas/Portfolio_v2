@@ -5,6 +5,10 @@ const slidebarData = [
             value: '70'
         },
         {
+            name: 'Vue',
+            value: '70'
+        },
+        {
             name: 'JavaScript',
             value: '60'
         },

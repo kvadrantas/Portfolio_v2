@@ -12,7 +12,7 @@ const portfolioAllData = [
         imgName: '2.jpg',
         imgAltName: 'Žmonės IS',
         overlayTitle: 'Žmonės IS',
-        gitPrev: 'https://rolandasseputis.lt:2949/zmones?',
+        gitPrev: 'https://zmonesiis.rolandasseputis.lt/zmones?',
         gitRepo: 'https://github.com/kvadrantas/Main-Zmones-IS-SQL'
     },
     {
@@ -28,7 +28,7 @@ const portfolioAllData = [
         imgName: '4.jpg',
         imgAltName: 'Baloon Poping',
         overlayTitle: 'Baloon Poping',
-        gitPrev: 'http://rolandasseputis.lt:2543/',
+        gitPrev: 'http://baloons.rolandasseputis.lt/',
         gitRepo: 'https://github.com/kvadrantas/breact-3-state-baloons/tree/master/breact-lesson'
     },
     {
@@ -52,7 +52,7 @@ const portfolioAllData = [
         imgName: '7.jpg',
         imgAltName: 'Progress Dashboard',
         overlayTitle: 'Progress Dashboard',
-        gitPrev: 'https://rolandasseputis.lt/progress-dashboard/',
+        gitPrev: 'https://dashboard.rolandasseputis.lt/',
         gitRepo: 'https://github.com/kvadrantas/Main-Achievement-Dashboard'
     },
     {

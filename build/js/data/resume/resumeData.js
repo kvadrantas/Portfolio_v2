@@ -3,6 +3,20 @@ const resumeData = [
        content: 
        `<p>
             <i>RESPONSABILITIES</i><br><br>
+            - Solving issues and bugs. <br>
+            - Developing simple features.<br><br>
+            <i>TECHNOLOGIES</i><br><br>
+            Vue;<br>
+            Vued;<br>
+            Javascript;<br>
+            HTML;<br>
+            CSS;<br>
+        </p>`
+    },
+    {
+       content: 
+       `<p>
+            <i>RESPONSABILITIES</i><br><br>
             - Hired for fixed term project- to migrate digital signature online portal/services. <br>
             - Investigation of existing production, development, demo and test environments <br>
             - Creating new highly available & load balanced design both for frontend WEB and backend SQL infrastructure<br>
@@ -88,6 +102,17 @@ const resumeData = [
     {
         content: 
         `<p>
+            <i>Vue & Vuex Courses </i><br><br>
+            <a href='https://zyro.udemy.com/course/vuejs-2-the-complete-guide/' target='_blank'>Vue - The Complete Guide (incl. Router & Composition API)</a><br>
+            <a href='https://www.vuemastery.com/courses/intro-to-vue-3/intro-to-vue3' target='_blank'>Intro to Vue 3</a><br>
+            <a href='https://www.vuemastery.com/courses/real-world-vue3/rwv3-orientation' target='_blank'>Real World Vue 3</a><br>
+            <a href='https://www.vuemastery.com/courses/touring-vue-router/vue-router-introduction' target='_blank'>Touring Vue Router</a><br>
+            <a href='https://www.vuemastery.com/courses/vuex-fundamentals/vuex4-intro-to-vuex' target='_blank'>Vuex Fundamentals</a><br>
+        </p>`
+    },
+    {
+        content: 
+        `<p>
             This is a 5.5 month full time courses intender for Javascript developers. Course teaches strong JavaScript basics, front-end and back-end software development, a comprehensive introduction to the JavaScript programming language, Object-oriented programming in the Node.js environment, development of online systems and applications. Knowledge and skills gained during the program ensures all the critical needs required of a Junior Full-Stack Javascript developer.<br><br>
 
             <i>Technologies covered by course: </i><br><br>
@@ -131,8 +156,6 @@ const resumeData = [
     {
         content: 
         `<p>
-            <i>The #1 bestselling HTML and CSS course on Udemy! </i><br><br>
-
             <i>MICROSOFT CERTIFICATION </i><br><br>
             <a href='./doc/Azure-Fundamentals-AZ-900.pdf' target='_blank'>Microsoft Certified Azure Fundamentals</a><br>
             <a href='./doc/Azure-Administrator-Associate-AZ-103.pdf' target='_blank'>Microsoft Certified Azure Administrator Associate</a><br>
