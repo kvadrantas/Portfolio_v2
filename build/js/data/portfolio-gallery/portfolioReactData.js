@@ -20,7 +20,7 @@ const portfolioReactData = [
         imgName: 'eshop-react.jpeg',
         imgAltName: 'eshop-react',
         overlayTitle: 'eshop-react',
-        gitPrev: 'https://eshop-crud.rolandasseputis.lt/',
+        gitPrev: 'https://eshop-crud.rolandasseputis.lt:2549//',
         gitRepo: 'https://github.com/kvadrantas?tab=repositories&q=eshop-crud&type=&language=&sort='
     },
     {
