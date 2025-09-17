@@ -1,0 +1,91 @@
+.about {
+    margin-top: 30px;
+    max-height: 370px;
+    max-width: 287px;
+}
+
+#navigation,
+button,
+.new-per-button,
+.navigation,
+.dev-section,
+.blog-button
+{
+    display: none;
+}
+
+.hero {
+    height: 90vh;
+}
+
+#skills {
+    padding: 0px;
+}
+
+.primaryTitle {
+    padding-top: 20px;
+}
+
+.blog-row {
+    transform: scale(0.8);
+    margin-left: -90px;
+    flex-direction: row !important;
+}
+
+.date, .work, .description {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.right-column {
+    width: 130% !important;
+}
+
+.date {
+    white-space: nowrap;
+}
+
+.print-only {
+    display: inline-block;
+}
+
+.resume-left {
+    padding-top: 0px;;
+}
+
+#experience li {
+    padding: 7px;
+    padding-top: 25px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.print-spacer {
+  height: 4cm;
+}
+
+.print-spacer2 {
+  margin-top: 5cm;
+}
+
+.print-spacer3 {
+  height: 3cm;
+}
+
+.primary-interest {
+    margin-top: 50px;
+}
+
+.dev-section.print-only {
+ height: 360px;
+}
+
+@media print {
+  @page {
+    margin: 0;
+  }
+  body {
+    padding: 1.6cm;
+  }
+}

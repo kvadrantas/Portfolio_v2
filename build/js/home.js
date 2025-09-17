@@ -65,3 +65,67 @@ resume();
 
 // SLIDE-BAR
 slidebar();
+
+document.getElementById('age').textContent = calculateAge();
+
+function calculateAge() {
+  const birthYear = 1982;
+  const birthMonth = 1;
+  const birthDay = 16;
+
+  const today = new Date();
+  const currentYear = today.getFullYear();
+  const currentMonth = today.getMonth() + 1; // getMonth() is 0-indexed
+  const currentDay = today.getDate();
+
+  let age = currentYear - birthYear;
+
+  // Adjust age if the birth date hasn't occurred yet this year
+  if (currentMonth < birthMonth || (currentMonth === birthMonth && currentDay < birthDay)) {
+    age--;
+  }
+
+  return age;
+}
+
+function getDurationUntilToday(startDateString) {
+  const startDate = new Date(startDateString);
+  const today = new Date();
+
+  // Calculate the difference in years and months
+  let years = today.getFullYear() - startDate.getFullYear();
+  let months = today.getMonth() - startDate.getMonth();
+  let days = today.getDate() - startDate.getDate();
+
+  // Adjust for cases where the current date's month or day is before the start date's month or day
+  if (days < 0) {
+    months--;
+  }
+
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+
+  // Build the duration string
+  let duration = "";
+  if (years > 0) {
+    duration += `${years} year${years > 1 ? "s" : ""}`;
+  }
+  if (months > 0) {
+    // Add " and " only if years are also present
+    if (duration !== "") {
+      duration += " and ";
+    }
+    duration += `${months} month${months > 1 ? "s" : ""}`;
+  }
+
+  // Handle the case where the duration is less than a month
+  if (duration === "") {
+    return "less than a month";
+  }
+
+  return duration;
+}
+
+document.getElementById('lastWorkDuration').textContent = getDurationUntilToday('2022-06-06');

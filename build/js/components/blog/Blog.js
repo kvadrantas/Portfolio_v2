@@ -6,8 +6,10 @@ class Blog {
     render() {
         const blogDOM = document.getElementById('blog');
         let html = "";
+        let index = 0;
 
-         for (const blog of this.data) {
+        for (const blog of this.data) {
+            index++;
             const {
                 status,
                 photoName,
@@ -21,11 +23,14 @@ class Blog {
                 authorPhotoAlt,
                 author,
                 date
-             } = blog;
+                } = blog;
 
-             if (status != 'published') continue;
+                if (status != 'published') continue;
+                if (index === 1 || index % 3 === 1) {
+                    html += `<div class="blog-row">`;                    
+                }
 
-             html = `<div class="blog-container col-12 col-lg-4">
+                html += `<div class="blog-container col-12 col-lg-4">
                         <img src="./img/blog/${photoName}" alt="${photoAlt}">
                         <a href="${buttonLink}" class = "blog-button" target="_blank">
                             ${buttonText}
@@ -44,20 +49,18 @@ class Blog {
                                     <img src="./img/testimonial/${authorPhotoName}" alt="${authorPhotoAlt}">
                                 </div>
                                 <div class="person">
-                                    <div class="author">
-                                        BY : ${author}
-                                    </div>
-                                    <div class="date">
-                                        ${date}
-                                    </div>
+                                ${author} | ${date}
                                 </div>
                                 </div>
                             </div>
                         </div>`;
-                        // console.log(blogDOM.innerHTML);
-
-             blogDOM.innerHTML += html;
-         }
+                        
+                        if (index % 3 === 0) {
+                            html += `</div>`;
+                            html += '<div class="print-spacer2"></div>';
+                        } 
+                    }
+                    blogDOM.innerHTML += html;
     }
 };
 

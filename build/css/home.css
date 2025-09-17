@@ -40,5 +40,9 @@ section {
   overflow: hidden;
 }
 
+.print-only {
+  display: none;
+}
+
 /* ------------------------------------------------------ */
 

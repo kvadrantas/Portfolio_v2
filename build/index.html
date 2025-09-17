@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./fonts/fontawesome/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" media="print" href="./css/print.css" />
 </head>
 
 <body>
@@ -26,9 +26,9 @@
                     <a href="#about">About</a>
                     <a href="#skills">Skills</a>
                     <a href="#experience">Experience</a>
-                    <a href="#portfolio">Portfolio</a>
+                    <!-- <a href="#portfolio">Portfolio</a> -->
                     <!-- <a href="#review">Review</a> -->
-                    <a href="#blog">Latest Work</a>
+                    <a href="#blog">Latest Projects</a>
                     <a href="#skills">Contact</a>
                 </div>
                 <div class="navbar-holder hide">
@@ -59,31 +59,31 @@
             <div class="right-column">
                 <h1 class="primaryTitle"><span>About</span><span>Me</span></h1>
                 <h3>DESIRED POSITION</h3>
-                <p>I have switched from Senior IT Engineer position to Junior Frontend Developer 4 months ago. I’ve been working in IT sector as an engineer for 17 years and naturally came a time when I started to desire new challenges and changes to my career. To make this happen I have finished JavaScript 5.5 month full time courses with JavaScript, Node.js HTML/CSS and React. Currently I am working at Zyro.com as VUE Frontend developer and my primary interests are React, Vue, Vuex, Javascript, HTML and CSS.</p>
+                <p>For the last <span id="lastWorkDuration"></span> I have been working in SEB bank as a Javascript front end developer, building WEB loan and leasing calculators and other banking applications. Currently I am seeking a role as an Angular (or Angular + React) front end developer. My preference is a big financial, telecommunication or IT company with a permanent full time contract. The key requirement is that company would have Angular (or Angular + React) as a main technology stack, which would give me professional growth and development in the desired area. I am highly motivated and determined towards team and project goals, self-development and learning.</p>
                 <div class="personal-list">
                     <div class="ul-left">
                             <li> <p class="aboutme-label">Name:</p> <span class="aboutme-value">Rolandas Šeputis</span> </li>
-                            <li> <p class="aboutme-label">AGE:</p>  <span class="aboutme-value">39</span> </li>
+                            <li> <p class="aboutme-label">AGE:</p>  <span id="age" class="aboutme-value"></span> </li>
                     </div>
                     <div class="ul-right">
                             <li> <p class="aboutme-label">Email:</p> <span class="aboutme-value"><img src="./img/email.jpg" alt="contact" style="height:14px; margin-top:4px;"></span> </li>
                             <li> <p class="aboutme-label">LOCATION:</p> <span class="aboutme-value">Lithuania, Vilnius</span> </li>
                     </div>
                 </div> 
-                <form method="get" action="./doc/DEV-CV-2021.pdf" target="_blank">
+                <form method="get" action="./doc/DEV-CV-2025.pdf" target="_blank">
                     <button class="new-per-button">Download resume</button>
                 </form>
-                <a href="https://dashboard.rolandasseputis.lt/" class="new-per-button" target="_blank">My Progress</a>
+                <a href="#blog" class="new-per-button" target="_blank">Latest Projects</a>
             </div>
         </section>
 <!---------------------------SECTION2 - ABOUT ME - ends------------------------------------->      
 <!---------------------------SECTION3 - MY SKILLS - start------------------------>
         <section id="skills">
             <div class="multi-block">
-                <h1 class="primaryTitle"><span>My</span><span>Skills</span></h1>
+                <h1 class="primaryTitle"><span>Quick</span><span>Info</span></h1>
                 <div class="contacts">
                     <h4 class="title">Contacts</h4>
-                    <div><i class="fas fa-phone-alt"></i><img src="./img/mob.jpg" alt="contact" style="height: 21px; margin-top:12px;"></div>
+                    <div><i class="fas fa-phone-alt"></i><img src="./img/mob.png" alt="contact" style="height: 28px; margin-top:8px;"></div>
                     <div><i class="fas fa-envelope"></i><img src="./img/email2.jpg" alt="contact" style="height: 21px; margin-top:12px;"></div>
                     <div><i class="fas fa-home"></i>Lithuania, Vilnius</div>
                     <div><i class="fab fa-github"></i><a class="contact-link" href="https://github.com/kvadrantas" target="_blank">Mano Github</a></div>
@@ -123,8 +123,8 @@
             <ul class="resume-left">
                 <div class="circle"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
                 <li>
-                    <div class="date">2021 - 2022</div>
-                    <div class="work">Zyro</div>
+                    <div class="date">2022 - Present</div>
+                    <div class="work">SEB Bank</div>
                     <div class="description">Frontend developer</div>
                 </li>
                 <div id="res0" class="spec-content"></div>
@@ -134,6 +134,7 @@
                     <div class="description">IT Engineer for Migration Project</div>
                 </li>
                 <div id="res1" class="spec-content"></div>
+                <div class="print-spacer"></div>
                 <li>
                     <div class="date">2015 - 2019</div>
                     <div class="work">Barclays</div>
@@ -146,6 +147,7 @@
                     <div class="description">Senior IT engineer in hosting and virtualization</div>
                 </li>
                 <div id="res3" class="spec-content"></div>
+                <div class="print-spacer"></div>
                 <li>
                     <div class="date">2005 - 2011</div>
                     <div class="work">State labour inspectorate</div>
@@ -153,39 +155,47 @@
                 </li>
                 <div id="res4" class="spec-content"></div>
             </ul>
+
+
             <ul class="resume-right">
                 <div class="circle"><i class="fa fa-book" aria-hidden="true"></i></div>
-
+                <li>
+                    <div class="date">Jun 2022 - Sep 2025</div>
+                    <div class="work">Angular courses</div>
+                    <div class="description">3 Udemy online courses</div>
+                </li>
+                <div id="res5" class="spec-content"></div>                
                 <li>
                     <div class="date">Jun 2021 - Nov 2021</div>
-                    <div class="work">Recent Vue & Vuex courses</div>
-                    <div class="description">5 recent online courses</div>
+                    <div class="work">Vue & Vuex courses</div>
+                    <div class="description">5 online courses</div>
                 </li>
-                <div id="res5" class="spec-content"></div>
+                <div id="res6" class="spec-content"></div>
+                <div class="print-spacer"></div>
                 <li>
                     <div class="date">Jun 2021 - Nov 2021</div>
                     <div class="work">Baltic institute of technology</div>
-                    <div class="description">5.5 month duration Javascript course</div>
-                </li>
-                <div id="res6" class="spec-content"></div>
-                <li>
-                    <div class="date">Jun 2021 - Nov 2021</div>
-                    <div class="work">Udemy</div>
-                    <div class="description">The Complete JavaScript Course 2021: From Zero to Expert!</div>
+                    <div class="description">5.5 month duration Javascript, React, Node.js, HTML, CSS course</div>
                 </li>
                 <div id="res7" class="spec-content"></div>
                 <li>
                     <div class="date">Jun 2021 - Nov 2021</div>
-                    <div class="work">Udemy</div>
-                    <div class="description">Build Responsive Real-World Websites with HTML and CSS</div>
+                    <div class="work">Javascript Courses</div>
+                    <div class="description">1 Udemy Online Course</div>
                 </li>
                 <div id="res8" class="spec-content"></div>
+                <li>
+                    <div class="date">Jun 2021 - Nov 2021</div>
+                    <div class="work">HTML | CSS courses</div>
+                    <div class="description">1 Udemy Online Course</div>
+                </li>
+                <div id="res9" class="spec-content"></div>
                 <li>
                     <div class="date">Jan 2004 - Dec 2006</div>
                     <div class="work">IT engineer certification</div>
                     <div class="description">Certificate list ganed during IT engineer carrier</div>
                 </li>
-                <div id="res9" class="spec-content"></div>
+                <div id="res10" class="spec-content"></div>
             </ul>
             
         </section>
@@ -197,13 +207,25 @@
         <h1>Primary Interests</h1>
         <div class="content">
             <div class="element">
-                <i class="fab fa-html5"></i>
-                <h4>HTML/CSS</h4>
-            </div>
-            <div class="element">
                 <i class="fab fa-js-square"></i>
                 <h4>JavaScript</h4>
             </div>
+            <div class="element">
+                <i class="fab fa-html5"></i>
+                <h4>HTML/CSS</h4>
+            </div>
+
+
+            <div class="element">
+                <i class="fab fa-angular"></i>
+                <h4>Angular</h4>
+            </div>
+            <div class="element">
+                <i class="fab fa-react"></i>
+                <h4>React</h4>
+            </div>
+
+
             <div class="element">
                 <i class="fab fa-node-js"></i>
                 <h4>Node.js</h4>
@@ -211,10 +233,6 @@
             <div class="element">
                 <i class="fab fa-vuejs"></i>
                 <h4>Vue</h4>
-            </div>
-            <div class="element">
-                <i class="fab fa-react"></i>
-                <h4>React</h4>
             </div>
         </div>
 
@@ -394,13 +412,51 @@
 <!---------------------------SECTION8 TESTIMONIALS - ends--------------------------->
 <!---------------------------SECTION9 BLOG - begins--------------------------------->
         <section id = "blog" class="latest-blog">
-            <h1 class="primaryTitle"><span>Latest</span><span>Work</span></h1>
+            <h1 class="primaryTitle"><span>Latest</span><span>Projects</span></h1>
         </section>
 <!---------------------------SECTION9 BLOG - ends----------------------------------->
-        <section class="first-job">
-            <h1 class="primaryTitle"><span>First</span><span>Dev Job at Zyro</span></h1>
-            <!-- <p>THANK YOU ZYRO TEAM FOR MAKING DREAMS COME TRUE</p> -->
-            <img src="./img/first-job-min.jpeg" alt="First job as developer">
+<!---------------------------SECTION5 - DEV-SECTION - begins------------------------------------->
+<section class="dev-section print-only">
+    <div class="overlay">
+        <h1 class="primary-interest">Primary Interests</h1>
+        <div class="content">
+            <div class="element">
+                <i class="fab fa-js-square"></i>
+                <h4>JavaScript</h4>
+            </div>
+            <div class="element">
+                <i class="fab fa-html5"></i>
+                <h4>HTML/CSS</h4>
+            </div>
+
+
+            <div class="element">
+                <i class="fab fa-angular"></i>
+                <h4>Angular</h4>
+            </div>
+            <div class="element">
+                <i class="fab fa-react"></i>
+                <h4>React</h4>
+            </div>
+
+
+            <div class="element">
+                <i class="fab fa-node-js"></i>
+                <h4>Node.js</h4>
+            </div>
+            <div class="element">
+                <i class="fab fa-vuejs"></i>
+                <h4>Vue</h4>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!---------------------------SECTION5 - DEV-SECTION - ends--------------------------------------->
+<section class="first-job">
+            <!-- <div class="print-spacer3"></div>' -->
+            <h1 class="primaryTitle"><span>Let's</span><span>Have a Deal</span></h1>
+            <img src="./img/first-job-min.png" alt="First job as developer">
         </section>
     </main>
 <!---------------------------SECTION10 FOOTER - begins------------------------------->

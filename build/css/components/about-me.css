@@ -31,7 +31,8 @@
   width: 41%;
 }
 
-.about-me > .right-column > p {
+.about-me > .right-column > p,
+.about-me > .right-column > p > span {
   font: 16px Roboto, sans-serif;
   line-height: 1.857em;
   border-bottom: 1px solid var(--background);

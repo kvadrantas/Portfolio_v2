@@ -2,7 +2,7 @@ let socialData = [
     {
         status: 'published',
         icon: 'fas fa-tasks',
-        link: 'https://dashboard.rolandasseputis.lt/'
+        link: '#blog'
     },
     {
         status: 'draft',

@@ -19,6 +19,10 @@
     border: 1px solid #e0e1e4; */
 }
 
+.technologies {
+    display: flex;
+}
+
 .resume-left {
     position: relative;
     float: left;

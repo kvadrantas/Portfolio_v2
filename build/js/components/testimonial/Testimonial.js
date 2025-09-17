@@ -165,9 +165,6 @@ class Testimonial {
                                        testimonial1DOM.classList.remove(`swipe1-${direction}`);
                                        testimonial2DOM.classList.remove(`swipe2-${direction}`);
                                    }, 305); 
-                                       
-                                       console.log(i);
-                                       // i -= 1;
                            }
                            swipe(testimonial1DOM, testimonial2DOM, direction, --i);
                         }, 350); 

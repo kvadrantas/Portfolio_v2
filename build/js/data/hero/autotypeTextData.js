@@ -5,6 +5,14 @@ let autotypeTextData = [
     },
     {
         status: 'published',
+        text: 'Angular'
+    },
+    {
+        status: 'published',
+        text: 'React'
+    },
+    {
+        status: 'published',
         text: 'Node.js'
     },
     {

@@ -1,24 +1,28 @@
 const slidebarData = [
     [
         {
+            name: 'JavaScript',
+            value: '99'
+        },
+        {
             name: 'HTML/CSS',
+            value: '99'
+        },
+        {
+            name: 'Angular',
             value: '70'
         },
         {
             name: 'Vue',
-            value: '70'
-        },
-        {
-            name: 'JavaScript',
-            value: '60'
+            value: '30'
         },
         {
             name: 'Node.js',
-            value: '60'
+            value: '30'
         },
         {
             name: 'React',
-            value: '60'
+            value: '50'
         }
     ],
     [

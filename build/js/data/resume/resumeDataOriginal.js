@@ -8,7 +8,11 @@ const resumeData = [
             - Developing and improving key digital initiatives, like a parking system, marketing tools, and a dedicated cybersecurity website.<br>
             - Regulatory & User Experience Enhancements: implementation of accessibility features to ensure compliance with the European Accessibility Act (EAA), improving the platform's usability for all users.<br><br>
             <i>TECHNOLOGIES</i><br><br>
-            Javascript | HTML/CSS | Angular | React | CSS
+            Javascript;<br>
+            HTML/CSS;<br>
+            Angular;<br>
+            React;<br>
+            CSS;<br>
         </p>`
     },
     {
@@ -23,7 +27,14 @@ const resumeData = [
             - Configuring backups and monitoring for new servers<br>
             - Documenting new environment<br><br>
             <i>TECHNOLOGIES</i><br><br>
-            Windows | Windows NLB | WEB Farm | MS SQL Clustering (Always On) | RabbitMQ Clustering | Octopus | Anturis`
+            Windows;<br>
+            Windows NLB;<br>
+            WEB Farm;<br>
+            MS SQL Clustering (Always On);<br>
+            RabbitMQ Clustering;<br>
+            Octopus;<br>
+            Anturis;<br>
+        </p>`
     },
     {
         content: 
@@ -43,7 +54,12 @@ const resumeData = [
             - Installing additional MS Exchange servers<br>
             - Participating in migration from Exchange 2007 to 2013<br><br>
             <i>TECHNOLOGIES</i><br><br>
-            MS Exchange 2007/2010/2013 | MailMarshal | Enterprise Vault | MS DPM | Symantec and Forefront protection`
+            MS Exchange 2007/2010/2013<br>
+            MailMarshal<br>
+            Enterprise Vault<br>
+            MS DPM<br>
+            Symantec and Forefront protection<br>
+        </p>`
     },
     {
         content: 
@@ -59,7 +75,15 @@ const resumeData = [
             - Solving client incidents<br>
             - Maintaining hundreds of servers to keep them up & running<br><br>
             <i>TECHNOLOGIES</i><br><br>
-            MS Exchange 2007/2010/2013 | Windows 2003/2008/2012 | Active Directory / DNS / DHCP / WEB IIS / WSUS / Terminal Servers | VMware / Hyper-V / Virtuozzo | WEB Hosting Plesk | MS SQL | VEEAM / Acronis / MS DPM | Nagios / SCOM / Cactis`
+            MS Exchange 2007/2010/2013<br>
+            Windows 2003/2008/2012<br>
+            Active Directory / DNS / DHCP / WEB IIS / WSUS / Terminal Servers<br>
+            VMware / Hyper-V / Virtuozzo<br>
+            WEB Hosting Plesk<br>
+            MS SQL<br>
+            VEEAM / Acronis / MS DPM<br>
+            Nagios / SCOM / Cactis<br>
+        </p>`
     },
     {
         content: 
@@ -67,7 +91,15 @@ const resumeData = [
             <i>RESPONSIBILITIES</i><br><br>
             - Managing all IT infrastructure<br><br>
             <i>TECHNOLOGIES</i><br><br>
-            Windows NT/2003/2008 / AD / DNS / DHCP | MDaemon Mail Server | MS SQL / My SQL | Firewal administration | Antispam server Panda GateDefender | Web Server (IIS) / Aplication Server / File server | WEB CMS Smartweb | Antivirus servers: Symantec, Panda`
+            Windows NT/2003/2008 / AD / DNS / DHCP<br>
+            MDaemon Mail Server<br>
+            MS SQL / My SQL<br>
+            Firewal administration<br>
+            Antispam server Panda GateDefender<br>
+            Web Server (IIS) / Aplication Server / File server<br>
+            WEB CMS Smartweb<br>
+            Antivirus servers: Symantec, Panda<br>
+        </p>`
     },
 
 
@@ -99,7 +131,11 @@ const resumeData = [
             This is a 5.5 month full time courses intended for Javascript developers. Course teaches strong JavaScript basics, front-end and back-end software development, a comprehensive introduction to the JavaScript programming language, Object-oriented programming in the Node.js environment, development of online systems and applications. Knowledge and skills gained during the program ensure all the critical needs required for a Junior Full-Stack Javascript developer.<br><br>
 
             <i>Technologies covered by course: </i><br><br>
-            - HTML / CSS | JavaScript Frontend & Backend | Node.js | Node.js + Mysql | React
+            - HTML / CSS<br>
+            - JavaScript Frontend & Backend<br>
+            - Node.js<br>
+            - Node.js + Mysql<br>
+            - React<br>
         </p>`
     },
     {
