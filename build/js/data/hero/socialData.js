@@ -2,37 +2,44 @@ let socialData = [
     {
         status: 'published',
         icon: 'fas fa-tasks',
-        link: '#blog'
+        link: '#blog',
+        target: 'self'
     },
     {
         status: 'draft',
         icon: 'fab fa-cvonline',
-        link: '#'
+        link: '#',
+        target: '_blank'
     },
     {
         status: 'draft',
         icon: 'twitter',
-        link: '#'
+        link: '#',
+        target: '_blank'
     },
     {
         status: 'draft',
         icon: 'behance',
-        link: '#'
+        link: '#',
+        target: '_blank'
     },
     {
         status: 'published',
         icon: 'fab fa-linkedin-in',
-        link: 'https://www.linkedin.com/in/rolandas-šeputis'
+        link: 'https://www.linkedin.com/in/rolandas-šeputis',
+        target: '_blank'
     },
     {
         status: 'published',
         icon: 'fab fa-github',
-        link: 'https://github.com/kvadrantas'
+        link: 'https://github.com/kvadrantas',
+        target: '_blank'
     },
     {
         status: 'draft',
         icon: 'rss',
-        link: '#'
+        link: '#',
+        target: '_blank'
     }
 ];
 
