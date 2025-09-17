@@ -3,7 +3,7 @@ let socialData = [
         status: 'published',
         icon: 'fas fa-tasks',
         link: '#blog',
-        target: 'self'
+        target: '_self'
     },
     {
         status: 'draft',
