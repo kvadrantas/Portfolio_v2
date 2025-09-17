@@ -43,7 +43,7 @@ const blogData = [
     },
     {
         status: 'published',
-        photoName: 'leasing.png',
+        photoName: 'Leasing.png',
         photoAlt: 'Leasing calculator',
         buttonText: 'Leasing calculator',
         buttonLink: 'https://www.seb.lv/en/private/loans/leasing#paragraph',
