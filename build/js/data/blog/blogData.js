@@ -11,7 +11,7 @@ const blogData = [
         authorPhotoName: 'me.jpeg',
         authorPhotoAlt: 'Authors photo',
         author: 'Rolandas',
-        date: 'June 2017'
+        date: 'July 2023'
     },
     {
         status: 'published',
@@ -25,7 +25,7 @@ const blogData = [
         authorPhotoName: 'me.jpeg',
         authorPhotoAlt: 'Authors photo',
         author: 'Rolandas',
-        date: 'June 2017'
+        date: 'April 2024'
     },
     {
         status: 'published',
@@ -39,7 +39,7 @@ const blogData = [
         authorPhotoName: 'me.jpeg',
         authorPhotoAlt: 'Authors photo',
         author: 'Rolandas',
-        date: 'June 2017'
+        date: 'September 2020'
     },
     {
         status: 'published',
@@ -53,7 +53,7 @@ const blogData = [
         authorPhotoName: 'me.jpeg',
         authorPhotoAlt: 'Authors photo',
         author: 'Rolandas',
-        date: 'June 2017'
+        date: 'May 2023'
     },
     {
         status: 'published',
@@ -67,7 +67,7 @@ const blogData = [
         authorPhotoName: 'me.jpeg',
         authorPhotoAlt: 'Authors photo',
         author: 'Rolandas',
-        date: 'June 2017'
+        date: 'June 2024'
     },
     {
         status: 'published',
@@ -81,7 +81,7 @@ const blogData = [
         authorPhotoName: 'me.jpeg',
         authorPhotoAlt: 'Authors photo',
         author: 'Rolandas',
-        date: 'June 2017'
+        date: 'June 2024'
     },
 
 
@@ -100,7 +100,7 @@ const blogData = [
         authorPhotoName: 'me.jpeg',
         authorPhotoAlt: 'Authors photo',
         author: 'Rolandas',
-        date: 'June 2017'
+        date: 'March 2024'
     },
     {
         status: 'published',
@@ -114,7 +114,7 @@ const blogData = [
         authorPhotoName: 'me.jpeg',
         authorPhotoAlt: 'Authors photo',
         author: 'Rolandas',
-        date: 'June 2017'
+        date: 'March 2024'
     },
     {
         status: 'published',
@@ -128,7 +128,7 @@ const blogData = [
         authorPhotoName: 'me.jpeg',
         authorPhotoAlt: 'Authors photo',
         author: 'Rolandas',
-        date: 'June 2017'
+        date: 'September 2024'
     },
     {
         status: 'draft',
