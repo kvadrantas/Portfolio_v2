@@ -39,7 +39,7 @@ const blogData = [
         authorPhotoName: 'me.jpeg',
         authorPhotoAlt: 'Authors photo',
         author: 'Rolandas',
-        date: 'September 2020'
+        date: 'September 2022'
     },
     {
         status: 'published',
